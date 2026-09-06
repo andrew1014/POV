@@ -1,0 +1,29 @@
+# Temp / junk
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# Scratch & local test
+scratch/
+test/
+tmp/
+
+# Render intermediates — final videos & working clips live in the project vault, not here
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.aac
+*.wav
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets
+.env
+*.key
+*.pem
