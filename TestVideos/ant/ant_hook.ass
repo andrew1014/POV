@@ -1,0 +1,16 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,62,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,-1,0,0,0,100,100,0,0,1,2,1,2,60,60,180,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.30,0:00:03.20,Default,,0,0,0,,{\an2}POV: you are an ant.
+Dialogue: 0,0:00:03.40,0:00:07.00,Default,,0,0,0,,{\an2}Sunrise. Two centimetres off the ground.
+Dialogue: 0,0:00:07.20,0:00:11.20,Default,,0,0,0,,{\an2}Up here, one drop of dew weighs more than you do.
+Dialogue: 0,0:00:11.40,0:00:14.90,Default,,0,0,0,,{\an2}You would never see this from above.

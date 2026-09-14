@@ -15,24 +15,25 @@
 
 | Ch | Working file | What the viewer sees | Status |
 |---|---|---|---|
-| 1 | `TwoPiglets_Ch1_Run.mp4` | You're a baby piglet running through a golden flower field. Warm, joyful. Hook. | ✅ READY |
-| 2 | `TwoPiglets_Ch2_Companion.mp4` | Still running — a second piglet (your friend) gallops up beside you. "You're not alone." | ✅ READY |
+| 1 | `TwoPiglets_Ch1_Run_VERT.mp4` | You're a baby piglet running through a golden flower field. Warm, joyful. Hook. | ✅ READY (1080×1920 vertical) |
+| 2 | `TwoPiglets_Ch2_Companion_VERT.mp4` | Still running — a second piglet (your friend) gallops up beside you. "You're not alone." | ✅ READY (1080×1920 vertical) |
 | 3 | *(planned)* The Chase | Your friend bounds ahead chasing a butterfly; you follow — energy beat. | 🔜 to produce |
 | 4 | *(planned)* The Landing | Butterfly lands on a flower; you both pause and watch. Loops back to Ch1. | 🔜 to produce |
 
 **All finals in `E:\APEX\POV\Videos\`.**
-- Spec (masters): **1920×1080 landscape, H.264, 24fps, ~15.0s**, ~15–16 MB each
+- Spec (masters): **1920×1080 landscape, H.264, 24fps, ~15.0s** originals; **1080×1920 vertical** finals
+- Ch1 VERT = center-crop of the single-centered-piglet master (good motion preserved)
+- Ch2 VERT = blur-pad of the two-wide-piglets master (both piglets preserved — a crop would cut both)
 - Audio: **v5 daytime birdsong** (real English-meadow field recording, gentle, distinct window per clip)
-- Production cost: **$0 media** (free pixverse render + local free audio). ⚠️ One paid HD render was spent on Ch2 test (see note) — going forward tests are cheap, finals HD only.
+- Production cost: **$0 media** (existing free renders + free local audio)
 
 ---
 
-## ⚠️ PRE-UPLOAD STEP (needs your go) — VERTICAL
-Masters are **landscape 1920×1080**; TikTok/Shorts want **1080×1920 vertical**. Two options:
-- **A) Safe center-crop to vertical** (free, local). Risk: Ch2 has two piglets spread across frame — a blind center 607px crop may cut one. Must preview first.
-- **B) One HD vertical render per approved chapter** (paid, ~$1 each) with vertical composition baked in. Per the cost rule this is the single "final" pass — do only after you approve the two chapters' direction.
-
-**Recommendation:** pick the winner chapter(s) first → preview a center-crop → only if the crop breaks framing, do the HD vertical render.
+## ✅ VERTICAL — RESOLVED (Sep 6)
+Ch1 + Ch2 are now delivered as **1080×1920 vertical finals** (`TwoPiglets_Ch1_Run_VERT.mp4`, `TwoPiglets_Ch2_Companion_VERT.mp4`).
+- Ch1 (single centered piglet) → **center-crop** of the landscape master (good motion, no re-render).
+- Ch2 (two wide-set piglets) → **blur-pad** (a crop would cut both; this keeps both + the good motion).
+- No paid re-render needed. No further vertical action required before posting.
 
 ---
 

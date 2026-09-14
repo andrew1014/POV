@@ -27,3 +27,6 @@ venv/
 .env
 *.key
 *.pem
+
+# Frame-extraction scratch (QA frames, crops) - keep repos light
+frames/
