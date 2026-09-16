@@ -13,7 +13,7 @@ Method (the reliable path):
 import os, subprocess
 
 BASE   = r"E:\APEX\POV\TestVideos\piglets"
-SRC    = os.environ.get("LOCALAPPDATA", r"C:\Users\avega.VEGANATOR\AppData\Local") + r"\Temp\english_meadow.mp3"
+SRC    = r"E:\APEX\Tools\assets\english_meadow.mp3"
 OUTSUB = "with_audio_v5"
 # 4 base clips -> 4 distinct source offsets (~11 min apart so moments differ)
 CLIPS = [

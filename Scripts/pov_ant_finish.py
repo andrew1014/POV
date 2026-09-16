@@ -4,7 +4,7 @@ import os, subprocess
 
 D = r"E:\APEX\POV\TestVideos\ant"
 OUT = r"E:\APEX\POV\Videos\pov_ant_sunrise_VERT.mp4"
-SRC = os.path.join(os.environ.get("LOCALAPPDATA", ""), "Temp", "english_meadow.mp3")
+SRC = r"E:\APEX\Tools\assets\english_meadow.mp3"
 OFFSET = 1500.0          # distinct window from the same source (vary per clip)
 
 CAPTIONS = [

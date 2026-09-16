@@ -15,8 +15,8 @@ import os, subprocess, numpy as np, soundfile as sf
 import wave, struct
 
 BASE  = r"E:\APEX\POV\TestVideos\piglets"
-SFC   = os.environ.get("LOCALAPPDATA", r"C:\Users\avega.VEGANATOR\AppData\Local") + r"\Temp\pigsfx"
-MEADOW = os.environ.get("LOCALAPPDATA") + r"\Temp\english_meadow.mp3"
+SFC   = r"E:\APEX\Tools\assets\pigsfx"
+MEADOW = r"E:\APEX\Tools\assets\english_meadow.mp3"
 OUTSUB= "with_audio_v6"
 SR    = 44100
 

@@ -2,7 +2,7 @@ import subprocess, os, json
 
 TEST = r"E:\APEX\POV\TestVideos"
 OUT = r"E:\APEX\POV\Videos"
-AMB = os.path.join(os.environ.get("LOCALAPPDATA", ""), "Temp", "english_meadow.mp3")
+AMB = r"E:\APEX\Tools\assets\english_meadow.mp3"
 
 JOBS = [
     (r"animals\pov_otter_clam.mp4", "pov_otter_clam_VERT.mp4", 2100.0),
