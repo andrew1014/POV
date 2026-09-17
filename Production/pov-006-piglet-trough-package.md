@@ -24,7 +24,7 @@ Underfoot — first-person footage from a world you walk past. New vantage every
 
 What's the smallest thing you've ever stopped to watch?
 
-#pov #piglet #nature #shorts
+#pov #nature #wildlife #macro #piglet #shorts
 ```
 
 **AI label (required):** Upload -> "Altered content" -> **Synthetic**
@@ -41,7 +41,7 @@ The sprint. The first bite. The pure joy.
 
 What's your version of this? 🍽️
 
-#pov #piglet #cute #nature #fyp #naturetok #farmlife #animals
+#pov #fyp #foryou #naturetok #naturelovers #naturecommunity #wildlife #macrophotography #macro #tinyworld #piglet #farmlife #cuteanimals #satisfying #cinematic
 ```
 
 **AI label (required):** post flow -> toggle **"AI-generated content"**
@@ -54,7 +54,7 @@ What's your version of this? 🍽️
 ```
 POV: you're a piglet who just found the food. 🐷
 
-#pov #piglet #cute #nature #fyp #naturetok #farmlife #animals
+#pov #reels #reelsinstagram #nature #naturephotography #wildlifephotography #macrophotography #macro #naturelovers #tinyworld #natureisbeautiful #piglet #farmlife #cuteanimals #cinematic #goldenhour #satisfying
 ```
 
 **AI label:** REELS -> "AI info" -> declare AI-generated

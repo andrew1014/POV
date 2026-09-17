@@ -28,6 +28,23 @@
 ## Channel assets
 - Avatar: `POV\Branding\underfoot_avatar_1024.png` (dew drop at sunrise, from the ant clip's 14s frame).
 
+## Hashtag architecture (audience-building, not clip-tagging)
+A clip tag finds one video. A community tag builds a channel. Every package carries **four layers**,
+platform-weighted (Andrew's correction, Sep 2026 — the first-pass sets were entirely subject-specific
+and reached nobody outside the exact subject):
+
+1. **Format/discovery** — `#pov` `#fyp` `#foryou` (TikTok) · `#reels` `#reelsinstagram` (IG) · `#shorts` (YouTube)
+2. **Community** — where the audience actually lives: `#naturetok` `#naturelovers` `#naturecommunity`
+   `#wildlife` `#macrophotography` `#macro` `#tinyworld` · IG adds `#naturephotography`
+   `#wildlifephotography` `#natureisbeautiful`
+3. **Subject** — the specific thing (`#otter` `#piglet` `#butterfly` `#part1`/`#part2`)
+4. **Mood** — what makes people save/share a silent cinematic clip: `#satisfying` `#cinematic` `#goldenhour`
+
+Counts: YouTube ~5, TikTok ~15, IG ~15 (IG allows 30 but relevance beats volume).
+
+NOVA uses the same shape in space terms: `#nova #deepspace #astronomy #space #spacetok #universe
+#cosmology #science #shorts` — brand + community + subject, never subject-only.
+
 ## Platform rules
 - 1080×1920 H.264; **AI label required everywhere**: YouTube → Altered content → Synthetic · TikTok → "AI-generated content" toggle · IG → AI info.
 - Uploads happen in Andrew's signed-in browser — never claim a post is live.

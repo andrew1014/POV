@@ -24,7 +24,7 @@ Underfoot — first-person footage from a world you walk past. New vantage every
 
 What's the most satisfying sound you know?
 
-#pov #otter #nature #shorts
+#pov #nature #wildlife #macro #otter #shorts
 ```
 
 **AI label (required):** Upload -> "Altered content" -> **Synthetic**
@@ -41,7 +41,7 @@ That moment of eye contact hits different.
 
 Rate the side-eye 1-10 👇
 
-#pov #otter #seaotter #wildlife #nature #fyp #naturetok #animals
+#pov #fyp #foryou #naturetok #naturelovers #naturecommunity #wildlife #macrophotography #macro #tinyworld #otter #seaotter #animalsoftiktok #satisfying #cinematic
 ```
 
 **AI label (required):** post flow -> toggle **"AI-generated content"**
@@ -54,7 +54,7 @@ Rate the side-eye 1-10 👇
 ```
 POV: a sea otter stops and looks straight at you.
 
-#pov #otter #seaotter #wildlife #nature #fyp #naturetok #animals
+#pov #reels #reelsinstagram #nature #naturephotography #wildlifephotography #macrophotography #macro #naturelovers #tinyworld #natureisbeautiful #otter #seaotter #animalsofinstagram #cinematic #goldenhour #satisfying
 ```
 
 **AI label:** REELS -> "AI info" -> declare AI-generated
