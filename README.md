@@ -51,50 +51,23 @@ posters/     — Representative stills from produced chapters
 | 3 | **The Chase** — your friend bounds after a butterfly | 🔜 planned |
 | 4 | **The Landing** — the butterfly settles; you both watch (loops to Ch1) | 🔜 planned |
 
-## Engineering Notes
+## Engineering Highlights
 
-The pipeline is above. This is the part that was genuinely hard, recorded because each of
-these cost real time to learn.
+- **Evaluation discipline** — clips are reviewed from static frames for finish (sharpness,
+  framing, no burned-in text). Automated motion scores are diagnostics, not vetoes: motion is
+  blurred in a still by definition, so a low score alone never rejects a clip.
+- **Model chosen by measurement** — b-roll is rendered on a model with native 9:16 output,
+  selected by comparing sharpness at *final delivery resolution* rather than in previews,
+  where the 2.7× crop of a landscape render is invisible.
+- **The format is a deliberate risk choice** — first-person animal POV has no character
+  consistency, no lip-sync and no shot-to-shot continuity, which are the three hardest
+  problems in AI video.
+- **Approved prompts are frozen** — an approved prompt is never "improved" afterwards, because
+  that invalidates the approval.
 
-### A clip was wrongly rejected because it was judged from stills
-
-Several static frames were extracted from a rendered clip and reviewed before it went out.
-One was called a failure — the mouth region looked smeared and the pose read badly. The
-creator watched the actual clip and liked it. The frames had been capturing a *motion* —
-gnawing — which is inherently blurred in a single frame and perfectly legible in motion.
-
-**The rule that came out of it:** stills verify **finish only** — sharpness, exposure,
-framing, no burned-in text, correct aspect. They cannot verify whether a clip is *good*,
-because the thing being judged is movement. Automated scores are diagnostics, not vetoes. A
-clip that measures below benchmark but that the creator likes ships as-is.
-
-### Model choice was made on measured sharpness, not preference
-
-Vertical output needs a model that renders natively at 9:16. One candidate declared no
-aspect ratio and produced 1280×720 landscape, which meant cropping to vertical and
-upscaling by roughly 2.7× — noticeably soft, and about five times less sharp at final
-resolution than a model rendering native 720×1280.
-
-**Decision:** b-roll uses the model with native vertical output, accepting a gentler 1.5×
-upscale. The comparison was made by measuring resolution at final size rather than by
-eyeballing previews, because previews hide exactly this class of difference.
-
-### Cheap tests, expensive finals
-
-Every subject is proven with low-resolution test renders before any final render is paid
-for. Candidates are reviewed side by side, and only the approved one is rendered at full
-resolution — using the **exact** prompt that was approved, not an "improved" version of it.
-Improving an approved prompt after the fact invalidates the approval.
-
-### The failure mode this format avoids by design
-
-First-person animal POV was chosen partly because it sidesteps the hardest problems in AI
-video: there is no character-consistency requirement across cuts, no lip-sync, and no
-continuity to maintain. The model is asked to do what it is good at — motion, light,
-texture — rather than what it is bad at.
+Design decisions and assembly detail: **[ENGINEERING.md](ENGINEERING.md)**
 
 ---
-
 ## Why This Channel
 
 - **Near-zero marginal cost** — free video model renders, free field-recording audio, local assembly.
