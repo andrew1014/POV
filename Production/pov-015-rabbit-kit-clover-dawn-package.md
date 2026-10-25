@@ -3,7 +3,14 @@
 **Channel:** Underfoot - handle `@underfootpov`
 **File to upload:** `E:\APEX\POV\Videos\pov_rabbit_kit_clover_dawn_VERT.mp4`
 **Specs (verified):** 1080x1920 (9:16) - 15.04s - H.264 + AAC - no burned text
-**Status:** ready - Andrew uploads from his signed-in browser. Never claim it is posted.
+**Status:** ✅ **POSTED 2026-10-24** (Andrew confirmed; uploaded from his signed-in browser).
+⚠️ **This is the CROPPED STOPGAP**, not a clean render — `crop_pov015_blob.py` cut 720×1280 → 720×1060,
+trimmed width to 596 to restore 9:16 and upscaled 1.8× to 1080×1920, which is softer than the native
+1.5× route. The clean re-render (prompt corrected: no body-part anchor, vegetation only, negatives
+`no humans, no hands, no fingers, no skin`) is written to `TestVideos\candidates\rabbit015b\prompt.txt`
+and **still blocked on a Nous balance top-up** (HTTP 402 `insufficient_funds`). Worth replacing the
+upload with the clean version if the balance is topped up and the clip is still live.
+Original uncropped render preserved at `TestVideos\candidates\rabbit015\pov015_RAW.mp4`.
 
 ---
 

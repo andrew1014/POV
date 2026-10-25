@@ -30,3 +30,7 @@ venv/
 
 # Frame-extraction scratch (QA frames, crops) - keep repos light
 frames/
+# Timestamped per-frame QA extractions and duplicate checks — keep the contact sheet,
+# not the individual frames (20MB of stills for one candidate otherwise).
+TestVideos/candidates/*/f_*.png
+TestVideos/candidates/*/final_check*.png
