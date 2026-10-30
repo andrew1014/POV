@@ -1,0 +1,9 @@
+{
+  "request_id": "01a18ecd-b6a3-7453-a1e0-c1e3fb26ecde",
+  "endpoint": "bytedance/seedance-2.0/mini/text-to-video",
+  "family": "seedance-2.0-mini",
+  "prompt_bytes": 1087,
+  "submitted": "2026-10-30T17:53:28",
+  "status": "completed",
+  "url": "https://v3b.fal.media/files/b/0ab081e7/Rur2ShgNcmk32WRlxPUKH_video.mp4"
+}
